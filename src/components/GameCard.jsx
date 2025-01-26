@@ -6,6 +6,7 @@ function GameCard({
   gameScore = "N/A",
   gameGenre = "N/A",
   editors_choice = ""
+
 }) {
   return (
     <div className="relative w-full md:w-96 flex flex-col p-3 border-2 border-gray-400 rounded-md hover:bg-neutral-200 duration-150">
@@ -49,5 +50,5 @@ GameCard.propTyps = {
   gamePlatform: PropTypes.string,
   gameScore: PropTypes.string,
   gameGenre: PropTypes.string,
-  editorsChoice: PropTypes.string
+  editors_choice: PropTypes.string
 }
